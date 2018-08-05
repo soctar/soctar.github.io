@@ -3,17 +3,17 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://neildryan.com/categories/</loc>
+    <loc>https://neildryan.com/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://neildryan.com/</loc>
+    <loc>https://neildryan.com/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://neildryan.com/tags/</loc>
+    <loc>https://neildryan.com/tags/</loc>
     <priority>0</priority>
   </url>
   
