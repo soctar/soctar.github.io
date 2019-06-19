@@ -91,7 +91,7 @@ html, body {
   margin: 20px 0;
 }
 .container a {
-  color: #CB0202;
+  color: #DC3522;
 }
 .container a:hover {
   color: #0000ff;
@@ -149,7 +149,7 @@ html, body {
   transition: all .4s ease;
 }
 .social-links li a:hover {
-  color: #CB0202;
+  color: #DC3522;
 }
 .avatar {
   padding-top: 5%;
@@ -166,9 +166,6 @@ html, body {
 .page-not-found {
   padding-top: 20%;
 }
-.disqus {
-  padding-bottom: 15px;
-}
 .blogpost{
   text-align: left;
   line-height: 30px;
@@ -181,6 +178,7 @@ html, body {
 }
 .text-muted {
 	color: #6b6b6b;
+        font-size: 12px;
 }
 div.footer{
   border-bottom: 5px solid #FFFFFF;;
