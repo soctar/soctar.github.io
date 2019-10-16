@@ -5,37 +5,37 @@
     <link>https://neildryan.com/</link>
     <description>Recent content on Neil Ryan</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-US</language>
-    <lastBuildDate>Tue, 18 Jun 2019 01:52:59 -0500</lastBuildDate>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 27 Sep 2019 01:52:59 -0500</lastBuildDate>
     
 	<atom:link href="https://neildryan.com/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Teaching Statement -- In progress</title>
-      <link>https://neildryan.com/blog/teaching/</link>
-      <pubDate>Tue, 18 Jun 2019 01:52:59 -0500</pubDate>
+      <title>ASDF</title>
+      <link>https://neildryan.com/blog/new-post/</link>
+      <pubDate>Fri, 27 Sep 2019 01:52:59 -0500</pubDate>
       
-      <guid>https://neildryan.com/blog/teaching/</guid>
-      <description>As I&amp;rsquo;ve been pivoting from Computer Architecture research to Computing Education research, I&amp;rsquo;ve been doing my best to interrogate myself about what feels unique about this specific move in my life, as well what excites me, and what challenges me. At some point in the future, I&amp;rsquo;ll write up some of the reflections here.</description>
+      <guid>https://neildryan.com/blog/new-post/</guid>
+      <description>This is a first, test blog post.</description>
     </item>
     
     <item>
-      <title>Vitae</title>
-      <link>https://neildryan.com/vitae/</link>
-      <pubDate>Sat, 28 Jul 2018 01:52:59 -0500</pubDate>
+      <title>Hodhod</title>
+      <link>https://neildryan.com/projects/hodhod/</link>
+      <pubDate>Mon, 26 Aug 2019 16:36:11 +0430</pubDate>
       
-      <guid>https://neildryan.com/vitae/</guid>
-      <description></description>
+      <guid>https://neildryan.com/projects/hodhod/</guid>
+      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Morbi tristique senectus et netus et malesuada fames ac. Risus pretium quam vulputate dignissim suspendisse in. In cursus turpis massa tincidunt dui. Purus non enim praesent elementum facilisis. Id aliquet risus feugiat in ante metus dictum at tempor. Velit ut tortor pretium viverra suspendisse potenti nullam ac. Tincidunt augue interdum velit euismod in.</description>
     </item>
     
     <item>
-      <title>Research</title>
-      <link>https://neildryan.com/research/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <title>My Best Paper</title>
+      <link>https://neildryan.com/publications/mybestpaper/</link>
+      <pubDate>Mon, 26 Aug 2019 16:36:11 +0430</pubDate>
       
-      <guid>https://neildryan.com/research/</guid>
-      <description>COATI</description>
+      <guid>https://neildryan.com/publications/mybestpaper/</guid>
+      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Morbi tristique senectus et netus et malesuada fames ac. Risus pretium quam vulputate dignissim suspendisse in. In cursus turpis massa tincidunt dui. Purus non enim praesent elementum facilisis. Id aliquet risus feugiat in ante metus dictum at tempor. Velit ut tortor pretium viverra suspendisse potenti nullam ac. Tincidunt augue interdum velit euismod in.</description>
     </item>
     
   </channel>

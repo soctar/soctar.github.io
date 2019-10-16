@@ -5,38 +5,10 @@
     <link>https://neildryan.com/tags/</link>
     <description>Recent content in Tags on Neil Ryan</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-US</language>
-    <lastBuildDate>Tue, 18 Jun 2019 01:52:59 -0500</lastBuildDate>
+    <language>en-us</language>
     
 	<atom:link href="https://neildryan.com/tags/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>Education</title>
-      <link>https://neildryan.com/tags/education/</link>
-      <pubDate>Tue, 18 Jun 2019 01:52:59 -0500</pubDate>
-      
-      <guid>https://neildryan.com/tags/education/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Resume</title>
-      <link>https://neildryan.com/tags/resume/</link>
-      <pubDate>Sat, 28 Jul 2018 01:52:59 -0500</pubDate>
-      
-      <guid>https://neildryan.com/tags/resume/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Vitae</title>
-      <link>https://neildryan.com/tags/vitae/</link>
-      <pubDate>Sat, 28 Jul 2018 01:52:59 -0500</pubDate>
-      
-      <guid>https://neildryan.com/tags/vitae/</guid>
-      <description></description>
-    </item>
     
   </channel>
 </rss>
