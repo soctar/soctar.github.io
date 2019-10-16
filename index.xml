@@ -20,23 +20,5 @@
       <description>This is a first, test blog post.</description>
     </item>
     
-    <item>
-      <title>Hodhod</title>
-      <link>https://neildryan.com/projects/hodhod/</link>
-      <pubDate>Mon, 26 Aug 2019 16:36:11 +0430</pubDate>
-      
-      <guid>https://neildryan.com/projects/hodhod/</guid>
-      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Morbi tristique senectus et netus et malesuada fames ac. Risus pretium quam vulputate dignissim suspendisse in. In cursus turpis massa tincidunt dui. Purus non enim praesent elementum facilisis. Id aliquet risus feugiat in ante metus dictum at tempor. Velit ut tortor pretium viverra suspendisse potenti nullam ac. Tincidunt augue interdum velit euismod in.</description>
-    </item>
-    
-    <item>
-      <title>My Best Paper</title>
-      <link>https://neildryan.com/publications/mybestpaper/</link>
-      <pubDate>Mon, 26 Aug 2019 16:36:11 +0430</pubDate>
-      
-      <guid>https://neildryan.com/publications/mybestpaper/</guid>
-      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Morbi tristique senectus et netus et malesuada fames ac. Risus pretium quam vulputate dignissim suspendisse in. In cursus turpis massa tincidunt dui. Purus non enim praesent elementum facilisis. Id aliquet risus feugiat in ante metus dictum at tempor. Velit ut tortor pretium viverra suspendisse potenti nullam ac. Tincidunt augue interdum velit euismod in.</description>
-    </item>
-    
   </channel>
 </rss>
