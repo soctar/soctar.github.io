@@ -1,11 +1,6 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  
-  <url>
-    <loc>https://neildryan.com/bellatattoo/</loc>
-    <lastmod>2019-10-22T00:00:00+00:00</lastmod>
-  </url>
   
   <url>
     <loc>https://neildryan.com/blog/new-post/</loc>
@@ -15,23 +10,27 @@
   <url>
     <loc>https://neildryan.com/blog/</loc>
     <lastmod>2019-09-27T01:52:59-05:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://neildryan.com/categories/</loc>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://neildryan.com/</loc>
-    <lastmod>2019-10-22T00:00:00+00:00</lastmod>
-    <priority>0</priority>
+    <lastmod>2019-09-27T01:52:59-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://neildryan.com/blog/linda/</loc>
+  </url>
+  
+  <url>
+    <loc>https://neildryan.com/categories/</loc>
   </url>
   
   <url>
     <loc>https://neildryan.com/tags/</loc>
-    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://neildryan.com/reading/</loc>
   </url>
   
 </urlset>
