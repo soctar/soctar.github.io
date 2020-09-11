@@ -1,11 +1,7 @@
-/* Ubuntu, Ubuntu */
-@import url(https://fonts.googleapis.com/css?family=Ubuntu);
-@import url(https://fonts.googleapis.com/css?family=Ubuntu+Mono);
-
 :root {
     --accent-color: #0066cc;
-    --page-font-family: Ubuntu, sans-serif;
-    --monofont-family: Ubuntu Mono;
+    --page-font-family: "Source Sans Pro", sans-serif;
+    --monofont-family: "Source Code Pro", sans-serif;
 }
 
 body {
@@ -167,12 +163,8 @@ ul.flat li {
   font-size: 14px;
 }
 
-.page_meta_icon {
-  font-weight: .5em;
-}
-
 .email {
-  font-size: 16px;
+  font-size: 14px;
   font-family: var(--monofont-family);
   font-weight: bolder;
 }
@@ -185,7 +177,7 @@ ul.flat li {
 
 .site_link {
     font-family: var(--monofont-family);
-    font-size: 17px;
+    font-size: 16px;
 }
 
 .project_description {
