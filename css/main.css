@@ -3,89 +3,23 @@
 @import url(https://fonts.googleapis.com/css?family=Ubuntu+Mono);
 
 :root {
-    --accent: #0066cc;
+    --accent-color: #0066cc;
+    --page-font-family: Ubuntu, sans-serif;
+    --monofont-family: Ubuntu Mono;
 }
 
 body {
-  font-family: "Ubuntu", sans-serif;
+  font-family: var(--page-font-family);
   font-weight: 300;
-  color: #333;
+  color: #330;
   line-height: 1.5;
   font-size: 16px;
+  background-color: #fff;
 }
 
 a,
 a:hover {
-  color: var(--accent);
-  text-decoration: none;
-}
-
-html,
-button,
-input,
-select,
-textarea {
-  color: #222;
-}
-
-::-moz-selection {
-  background: #b3d4fc;
-  text-shadow: none;
-}
-
-::selection {
-  background: #b3d4fc;
-  text-shadow: none;
-}
-
-hr {
-  display: none;
-  height: 1px;
-  border: 0;
-  /* border-top: 1px solid #ccc; */
-  margin: 1rem 0;
-  padding: 0;
-}
-
-audio,
-canvas,
-img,
-video {
-  width: 100%;
-  vertical-align: middle;
-}
-
-fieldset {
-  border: 0;
-  margin: 0;
-  padding: 0;
-}
-
-textarea {
-  resize: vertical;
-}
-
-blockquote {
-  margin-left: 1rem;
-  font-style: italic;
-  font-size: 1.4rem;
-  font-family: Georgia, bitstream charter, serif;
-  border-left: 3px solid;
-  border-color: var(--accent);
-  padding-left: 20px;
-}
-
-blockquote cite {
-  font-size: 70%;
-  opacity: 0.8;
-}
-span {
-    display: block;
-}
-
-a,
-a:hover {
-  color: var(--accent);
+  color: var(--accent-color);
   text-decoration: none;
 }
 
@@ -99,38 +33,35 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: Ubuntu, raleway, sans-serif;
-  line-height: 1.2;
-  color: #330;
   font-weight: 100;
   margin-bottom: 15px;
   margin-top: 20px;
 }
 
-h1 {
-  font-size: 2.75rem;
+hr {
+  height: 0;
+  border: 0;
+  border-top: 1px solid;
+  margin: 1rem;
 }
 
-h2 {
-  font-size: 2rem;
+blockquote {
+  margin-left: 1rem;
+  font-style: italic;
+  font-size: 1.4rem;
+  font-family: Georgia, bitstream charter, serif;
+  border-left: 3px solid;
+  border-color: var(--accent-color);
+  padding-left: 20px;
 }
 
-h3 {
-  font-size: 1.6rem;
+blockquote cite {
+  font-size: 70%;
+  opacity: 0.8;
 }
 
-h4 {
-  font-size: 1.2rem;
-}
-
-h5 {
-  font-weight: 300;
-  font-size: 1rem;
-}
-
-h6 {
-  font-weight: 300;
-  font-size: 0.9rem;
+span {
+    display: block;
 }
 
 .container {
@@ -139,6 +70,7 @@ h6 {
 
 ul {
   padding-left: 15px;
+  list-style: disc inside;
 }
 
 ul.flat {
@@ -162,10 +94,6 @@ ul.flat li {
 
 .smaller {
   font-size: 70%;
-}
-
-ul {
-  list-style: disc inside;
 }
 
 .introduction ul li {
@@ -197,18 +125,16 @@ ul {
 }
 
 .header {
-  margin-bottom: 20px;
-  /* padding-bottom: 20px; */
+  margin-bottom: 2rem;
 }
 
 .header .profile_image {
   display: block;
-  margin-left: auto;
-  margin-right: auto;
-  max-width: 30%;
+  max-width: 20%;
+  border-radius: .5rem;
   height: auto;
-  border-radius: 50%;
-  /* float: left; */
+  float: left;
+  margin-right: 1rem;
 }
 
 .header h1,
@@ -220,72 +146,16 @@ ul {
 }
 
 .header h2 {
-  font-size: 1.125rem;
+  font-size: 1.0rem;
 }
 
-.header nav {
-  margin-top: 20px;
-  /* border-top: 1px solid #f4f4f4; */
-}
-
-.header nav ul,
-.header nav li {
-  margin: 0;
-}
-
-.header nav ul.flat {
-  padding: 0;
-}
-
-.header nav ul.flat li {
-  display: inline-block;
-  list-style: none;
-  margin-left: 0;
-  margin-right: 0px;
-  margin-top: 10px;
-  text-transform: capitalize;
-}
-
-.header .site-affilation {
-  display: flex;
-  justify-content: space-between;
-}
-
-.header .site-affilation .email {
-  /* color: #a00; */
-  font-size: 14px;
-  display: block;
-  font-family: "Ubuntu Mono";
-  font-weight: bolder;
-}
-
-.header .site-affilation .position {
-  font-family: Ubuntu;
-}
-
-.header .site-affilation nav {
-  margin: 0;
-  padding: 0;
-  border: none;
-}
-
-.header .site-affilation nav ul svg {
-  max-height: 15px;
-}
-
-/* header for projects */
-.header .logo {
-  display: block;
-  margin-top: 2%;
-  margin-bottom: -2%;
-  margin-left: auto;
-  margin-right: auto;
-  max-width: 10%;
-  height: auto;
+.header svg {
+    width: 1rem;
+    margin-bottom: -7px;
 }
 
 .page_title {
-  font-family: Ubuntu;
+  font-family: var(--page-font-family);
   font-weight: bolder;
   margin-top: 10%;
   display: block;
@@ -293,7 +163,7 @@ ul {
 
 .page_meta {
   display: block;
-  font-family: "Ubuntu Mono";
+  font-family: var(--monofont-family);
   font-size: 14px;
 }
 
@@ -303,77 +173,23 @@ ul {
 
 .email {
   font-size: 16px;
-  font-family: "Ubuntu Mono";
+  font-family: var(--monofont-family);
   font-weight: bolder;
 }
 
-.collaborators {
-  font-size: 15px;
-  margin-left: .9em;
-  margin-top: .1em;
-}
-
-.year {
-  font-size: 20px;
-  margin-bottom: -.6em;
-}
-
-.project {
-  margin: .5em -.5em 0em;
-}
-
-.publications {
-  margin-left: -.5em;
-}
-
 .code {
-    font-family: "Ubuntu Mono";
+    font-family: var(--monofont-family);
     font-size: 14px;
     margin: 0em .9em 0em;
 }
 
 .site_link {
-    font-family: "Ubuntu Mono";
+    font-family: var(--monofont-family);
     font-size: 17px;
-    /* margin: 0em .9em 0em; */
 }
 
 .project_description {
  margin: .5em .9em 0em;
-}
-
-.section .section-header {
-  font-size: 0.75rem;
-  font-weight: 600;
-  text-transform: uppercase;
-  color: #999;
-  margin-bottom: 20px;
-  letter-spacing: 1px;
-}
-
-.recent-posts .posts .introduction {
-  margin-bottom: 30px;
-}
-
-.recent-posts .posts .introduction .meta,
-.introduction .introduction-header .meta,
-.list .posts .introduction .meta {
-  font-size: 0.725rem;
-  color: #999;
-  margin-bottom: 4px;
-}
-
-.introduction .introduction-header {
-  margin-bottom: 30px;
-}
-
-.introduction .introduction-header .title {
-  margin: 0;
-}
-
-.introduction .introduction-header .meta {
-  padding-left: 5px;
-  margin-top: 10px;
 }
 
 .list .posts .introduction .meta {
@@ -390,48 +206,17 @@ ul {
   margin-top: 40px;
 }
 
-.page-title {
-  margin-bottom: 0;
-}
+/* Respond to "dark mode" system preference */
+@media (prefers-color-scheme: dark) {
+    body {
+        color: #e4e4e4;
+        background-color: #1c1c1c;
+    }
 
-.tag-cloud {
-  margin-top: 20px;
-}
-
-.tag-cloud a {
-  margin-right: 15px;
-}
-
-
-
-@media (max-width: 767px) {
-  body {
-    padding: 20px;
-  }
-
-  h1 {
-    font-size: 2rem;
-  }
-
-  h2 {
-    font-size: 1.6rem;
-  }
-
-  h3 {
-    font-size: 1.2rem;
-  }
-
-  h4 {
-    font-size: 1rem;
-  }
-
-  .container {
-    margin-top: 10px;
-  }
-}
-
-@media (max-width: 480px) {
-  body {
-    font-size: 14px;
-  }
+    a {
+        color: #66b3ff;
+    }
+    img {
+        filter: grayscale(10%);
+    }
 }
