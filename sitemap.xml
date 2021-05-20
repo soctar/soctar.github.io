@@ -2,19 +2,19 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://marakr.com/blog/</loc>
+    <loc>https://marakr.com/blog/</loc>
     <lastmod>2019-09-27T00:00:00-07:00</lastmod>
   </url><url>
-    <loc>http://marakr.com/</loc>
+    <loc>https://marakr.com/</loc>
     <lastmod>2019-09-27T00:00:00-07:00</lastmod>
   </url><url>
-    <loc>http://marakr.com/blog/linda/</loc>
+    <loc>https://marakr.com/blog/linda/</loc>
     <lastmod>2019-09-27T00:00:00-07:00</lastmod>
   </url><url>
-    <loc>http://marakr.com/categories/</loc>
+    <loc>https://marakr.com/categories/</loc>
   </url><url>
-    <loc>http://marakr.com/tags/</loc>
+    <loc>https://marakr.com/tags/</loc>
   </url><url>
-    <loc>http://marakr.com/reading/</loc>
+    <loc>https://marakr.com/reading/</loc>
   </url>
 </urlset>

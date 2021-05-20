@@ -2,9 +2,9 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Mara Kirdani-Ryan</title>
-    <link>http://marakr.com/tags/</link>
+    <link>https://marakr.com/tags/</link>
     <description>Recent content in Tags on Mara Kirdani-Ryan</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="http://marakr.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language><atom:link href="https://marakr.com/tags/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
