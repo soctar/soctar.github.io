@@ -1,32 +1,20 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  
   <url>
-    <loc>https://neildryan.com/blog/</loc>
+    <loc>https://marakr.com/blog/</loc>
     <lastmod>2019-09-27T00:00:00-07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://neildryan.com/</loc>
+  </url><url>
+    <loc>https://marakr.com/</loc>
     <lastmod>2019-09-27T00:00:00-07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://neildryan.com/blog/linda/</loc>
+  </url><url>
+    <loc>https://marakr.com/blog/linda/</loc>
     <lastmod>2019-09-27T00:00:00-07:00</lastmod>
+  </url><url>
+    <loc>https://marakr.com/categories/</loc>
+  </url><url>
+    <loc>https://marakr.com/tags/</loc>
+  </url><url>
+    <loc>https://marakr.com/reading/</loc>
   </url>
-  
-  <url>
-    <loc>https://neildryan.com/categories/</loc>
-  </url>
-  
-  <url>
-    <loc>https://neildryan.com/tags/</loc>
-  </url>
-  
-  <url>
-    <loc>https://neildryan.com/reading/</loc>
-  </url>
-  
 </urlset>

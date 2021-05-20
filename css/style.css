@@ -1,0 +1,288 @@
+:root {
+  --text-color: #34344A;
+  --link-color: #576490;
+  --link-hover: #98AFFF;
+  --background-color: #F3E8EE; /* Lavender Blush */
+  --font-size: 16px;
+  --font-family: "Helvetica", sans-serif;
+  --header-split-left: 25%;
+}
+
+html {
+    background-color: var(--background-color);
+    background: var(--background-color);
+}
+
+body {
+    align-items: center;
+    font-family: var(--font-family);
+    overflow: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+body.switched {
+    transition: color 0.6s, background-color 0.6s;
+}
+
+h1,
+h2,
+h3 {
+    text-align: left;
+    margin: 0;
+    padding: 5px;
+}
+
+h1 {
+    font-size: 24pt;
+}
+
+hr {
+  font-weight: lighter;
+  border: 1px solid;
+  width: 70%;
+  border-radius: 5px;
+}
+
+.header {
+  display: flex;
+  max-width:600px;
+  width: 100%;
+  margin-left: -15px;
+  margin-right: -15px;
+  padding: 20px
+}
+
+.header-img {
+  width: var(--header-split-left);
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.header-bio {
+  width: calc(100% - var(--header-split-left));
+  margin: 5px auto;
+  align-items: right;
+  line-height: 25px;
+}
+
+.profile-pic {
+  border-radius: 10px;
+}
+
+.written-in-ink {
+    z-index: 3;
+    font-size: 9pt;
+    font-family: sans-serif;
+    text-align: center;
+    font-weight: 700;
+    display: block;
+    width: 100%;
+    background: white;
+    transition: color 0.6s, background 0.6s;
+    margin: 0;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    height: 14px;
+    top: 0;
+}
+
+.outerContainer {
+    display: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    max-width: 40em;
+    -webkit-overflow-scrolling: touch;
+    /* overflow: scroll; */
+    /* overflow-x: hidden; */
+    height: 100%;
+    width: 40em;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/*
+  Enables <iframe> support work on itch.io when using mobile iOS
+*/
+@media screen and (max-width: 980px) {
+    .outerContainer {
+        margin-top: 44px;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+}
+
+.storycontainer {
+    max-width: 45em;
+    margin-left: auto;
+    margin-right: auto;
+    margin: 0 auto;
+    padding: 20px;
+    padding-top: 1em;
+    background: var(--background-color);
+}
+
+.switched .storycontainer {
+    transition: background-color 0.6s;
+}
+
+.storycontainer .hide { opacity: 0.0;}
+
+.storycontainer .invisible { display: none;}
+
+.storycontainer>* {
+    opacity: 1.0;
+    transition: opacity 8.0s;
+}
+
+p {
+    font-size: 13pt;
+    color: var(--text-color);
+    line-height: 1.7em;
+    font-weight: lighter;
+}
+
+a {
+    color: var(--link-color);
+    transition: color 1.0s;
+    text-decoration: none;
+}
+
+a:hover {
+    color: var(--link-hover);
+    transition: color 0.5s;
+}
+
+div.header a {
+  font-weight: 500;
+  padding: 5px;
+}
+
+
+strong {
+    font-weight: bold;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+*:focus {outline:none !important}
+
+/*
+  Class applied to all choices
+  (Will always appear inside <p> element by default.)
+*/
+.choice {
+    font-weight: 700;
+    text-align: center;
+    line-height: 1.7em;
+}
+
+/*
+  Class applied to first choice
+*/
+:not(.choice)+.choice {
+    padding-top: 1em;
+}
+
+/*
+  Class applied to choice links
+*/
+.choice a {
+    font-size: 15pt;
+}
+
+/*
+  Built-in class:
+    The End # CLASS: end
+*/
+.end {
+    text-align: center;
+    font-weight: bold;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#controls {
+    z-index: 4;
+    font-size: 9pt;
+    text-align: center;
+    padding-bottom: 6px;
+    position: fixed;
+    right: 14px;
+    top: 4px;
+    user-select: none;
+    transition: color 0.6s, background 0.6s;
+}
+
+#controls [disabled] {
+    color: #ccc;
+}
+
+#controls>*:not(:last-child):after {
+    content: " | ";
+}
+
+@media screen and (max-width: 980px) {
+    #controls {
+        z-index: 2;
+        padding-top: 24px;
+        top: 0;
+        left: 0;
+        right: 0;
+    }
+}
+
+/*
+  Dark Theme (Added in Inky 0.10.0)
+    # theme: dark
+*/
+
+/* body.dark { */
+/*     background: black; */
+/*     color: white; */
+/* } */
+
+/* .dark h2 { */
+/*     color: #666; */
+/* } */
+
+/* .dark .container { */
+/*     background: black; */
+/* } */
+
+/* .dark .written-in-ink { */
+/*     background: black; */
+/* } */
+
+/* .dark a { */
+/*     color: #cc8f1a; */
+/*     transition: color 0.6s; */
+/* } */
+
+/* .dark a:hover { */
+/*     color: white; */
+/* } */
+
+/* .dark strong { */
+/*     color: white; */
+/* } */
+
+/* .dark #controls [disabled] { */
+/*     color: #444; */
+/* } */
+
+/* .dark .end { */
+/*     color: white; */
+/* } */
+
+/* .dark #controls { */
+/*     background: black; */
+/* } */
