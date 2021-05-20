@@ -26,8 +26,8 @@ I get excited about a whole bunch of things: metacognition, queer theory, survei
 
 + [Publications]
 -> pubs
-+ [Take a breath!]
--> breathe.prep
+# + [Take a breath!]
+# -> breathe.prep
 
 === breathe ===
 = prep
